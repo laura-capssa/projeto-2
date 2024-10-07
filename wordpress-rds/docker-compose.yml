@@ -6,11 +6,12 @@ services:
     container_name: wordpress
     ports:
       - "80:80"
+      - "8080:8080"
     environment:
       WORDPRESS_DB_HOST: "bd-wordpress.c5eeqqqgswja.us-east-1.rds.amazonaws.com"
       WORDPRESS_DB_USER: "laura"
       WORDPRESS_DB_PASSWORD: "Helena0250!"
-      WORDPRESS_DB_NAME: "bd-wordpress"  # Removi o erro de digitação ("bd-word:press")
+      WORDPRESS_DB_NAME: "bd-wordpress"
       TZ: "America/Sao_Paulo"
     volumes:
       - /mnt/efs:/var/www/html
