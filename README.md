@@ -132,8 +132,7 @@ No console da AWS, crie um Load Balancer e associe-o às instâncias EC2.
 Certifique-se de que o Load Balancer permite o tráfego HTTP nas portas 80 e 8080.
 ![image](https://github.com/user-attachments/assets/b4344f3b-024c-4e0b-8fda-8b6bf48be3f6)
 
-## Resultado
-![image](https://github.com/user-attachments/assets/3d340064-a094-476a-be32-792c504e70e5)
+
 
 
 
