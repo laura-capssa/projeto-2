@@ -53,6 +53,9 @@ Teste a conexão do banco de dados:
 mysql -h <endereço_do_banco> -P 5432 -u laura -p
 ```
 
+![image](https://github.com/user-attachments/assets/030baba7-2cf6-449f-990a-bbbac9422999)
+
+
 4. Criação do Docker Compose
 Inicie a criação do arquivo docker-compose.yml para integrar o WordPress com o RDS MySQL.
 ![image](https://github.com/user-attachments/assets/ef854ff1-07c7-4b66-a963-1a6416a72c61)
@@ -118,6 +121,8 @@ Reinicie o container para aplicar as mudanças:
 docker-compose down
 docker-compose up -d
 ```
+![image](https://github.com/user-attachments/assets/e84f40d7-e4bc-4d88-9a2d-3585ce0e5ef6)
+
 
 ## Configuração do Load Balancer e Testes Finais
 1. Criar Load Balancer
@@ -127,6 +132,8 @@ No console da AWS, crie um Load Balancer e associe-o às instâncias EC2.
 Certifique-se de que o Load Balancer permite o tráfego HTTP nas portas 80 e 8080.
 ![image](https://github.com/user-attachments/assets/b4344f3b-024c-4e0b-8fda-8b6bf48be3f6)
 
+## Resultado
+![image](https://github.com/user-attachments/assets/3d340064-a094-476a-be32-792c504e70e5)
 
 
 
